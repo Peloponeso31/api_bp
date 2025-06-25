@@ -5,15 +5,15 @@
     "keywords": ["laravel", "framework"],
     "license": "MIT",
     "require": {
-        "php": "^8.1",
+        "php": "^8.4",
         "ext-fileinfo": "*",
         "ext-pdo": "*",
-        "barryvdh/laravel-dompdf": "^2.1",
+        "barryvdh/laravel-dompdf": "^v3.1.1",
         "guzzlehttp/guzzle": "^7.2",
         "hoa/regex": "~1.0",
-        "laravel/framework": "^10.10",
+        "laravel/framework": "^v12.19.3",
         "laravel/pail": "^1.1",
-        "laravel/sanctum": "^3.3",
+        "laravel/sanctum": "^v4.1.1",
         "laravel/scout": "^10.8",
         "laravel/tinker": "^2.8",
         "league/flysystem-sftp-v3": "^3.0",
@@ -24,13 +24,13 @@
         "spatie/pdf-to-image": "^2.3"
     },
     "require-dev": {
-        "barryvdh/laravel-ide-helper": "^2.14",
+        "barryvdh/laravel-ide-helper": "^v3.5.2",
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
-        "nunomaduro/collision": "^7.0",
-        "phpunit/phpunit": "^10.1",
+        "nunomaduro/collision": "^8.1",
+        "phpunit/phpunit": "^11.5.24",
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {
